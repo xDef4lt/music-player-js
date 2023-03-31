@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links CSS-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!--Scripts-->
+    <script charset="UTF-8" src="./js/script.js" defer></script>
+    <script charset="UTF-8" src="./js/player.js" defer></script>
+    <!--Chamando uma fonte externa-->
+    <style>
+        @font-face {
+            font-family: "Typo Formal";
+            src: url('./fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+
+    <title>Music Player With JS</title>
+</head>
+<body>
+    <div class="pop-up">
+        <h2>Seja bem-vindo ao meu projeto!</h2>
+        <p>
+            Que bom vê-lo aqui! Este projeto consiste em
+            um simples music player feito com JavaScript
+            Puro; Sinta-se livre para testar suas funcionalidades
+            ou para sugerir alguma melhora; Desde já, agradeço por
+            usar meu music-player ^^
+        </p>
+
+        <button class="btn" id="fechar-popup">Entendido!</button>
+    </div>
+
+    <main>
+        <div class="player-container">
+            <div class="info-music">
+
+            </div>
+            <div class="audio-container">
+                <audio src="./audios/Dri - FIM DO MUNDO .mp3" controls aria-disabled></audio>
+            </div>
+            <div class="controls">
+                <button id="play"></button>
+                <button id="pause"></button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

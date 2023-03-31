@@ -1,0 +1,102 @@
+body {
+    background: var(--secondary-color);
+    font-family: var(--default-font);
+}
+
+.pop-up {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    width: 28em;
+    height: auto;
+    padding: 1em;
+    margin: 65px auto;
+    border-radius: 4px;
+    border: 2px solid var(--highlight-text);
+    display: none;
+    transition: 1s;
+    position: absolute;
+}
+.pop-up.show {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    z-index: 2;
+
+}
+.pop-up > h2 {
+    color: var(--secondary-color);
+    padding: 4px;
+    border-radius: 10px;
+    background: var(--gradient-green);
+    position: fixed;
+    top: 45px;
+}
+.pop-up > p {
+    margin-top: 15px;
+}
+
+.btn {
+    background: var(--gradient-green);
+    width: 6em;
+    height: 2.5em;
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+.player-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid transparent;
+    border-image: var(--gradient-green) 10;
+    padding: 2em;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#play, #pause {
+    width: 4.5em;
+    height: 4.5em;
+    cursor: pointer;
+}
+#play {
+    background-image: url('../imgs/play.png');
+    background-size: cover;
+}
+#pause {
+    background-image: url('../imgs/pause.png');
+    background-size: cover;
+}
+
+audio {
+    /* Esconde os controles padrão */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Define a altura da barra de progresso */
+    height: 2em;
+    /* Define o fundo da barra de progresso */
+}
+audio::-webkit-media-controls-panel {
+    background: var(--gradient-green);
+}
+audio::-webkit-media-controls-play-button {
+    display: none !important;
+    -webkit-appearance: none;
+}
+
+button {
+    background: transparent;
+}
+
+main {
+    width: fit-content;
+    margin: 80px auto;
+}
