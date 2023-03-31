@@ -46,6 +46,12 @@ body {
     padding: 5px;
     cursor: pointer;
 }
+.info-music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .player-container {
     display: flex;
     flex-direction: column;
@@ -74,6 +80,10 @@ body {
     background-image: url('../imgs/pause.png');
     background-size: cover;
 }
+#music-name {
+    height: 30px;
+    text-align: center;
+}
 
 audio {
     /* Esconde os controles padrão */
@@ -99,4 +109,9 @@ button {
 main {
     width: fit-content;
     margin: 80px auto;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
 }
