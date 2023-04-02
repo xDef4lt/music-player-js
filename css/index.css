@@ -22,18 +22,14 @@ body {
     flex-direction: column;
     gap: 1em;
     z-index: 2;
-
 }
 .pop-up > h2 {
     color: var(--secondary-color);
     padding: 4px;
     border-radius: 10px;
     background: var(--gradient-green);
-    
 }
-.pop-up > p {
-    margin-top: 15px;
-}
+.pop-up > p { margin-top: 15px; }
 
 .btn {
     background: var(--gradient-green);
@@ -87,13 +83,10 @@ body {
 }
 
 audio {
-    /* Esconde os controles padrão */
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    /* Define a altura da barra de progresso */
     height: 2em;
-    /* Define o fundo da barra de progresso */
 }
 audio::-webkit-media-controls-panel {
     background: var(--gradient-green);
@@ -102,18 +95,15 @@ audio::-webkit-media-controls-play-button {
     display: none !important;
     -webkit-appearance: none;
 }
-
 button {
     background: transparent;
 }
-
 h1 {
     font-size: 3em;
     text-align: center;
     color: var(--secondary-color);
     background-image: var(--gradient-green);
 }
-
 main {
     width: fit-content;
     margin: 80px auto;
@@ -142,7 +132,6 @@ img.play {
     animation: roll 6s infinite;
     transition: 2s ease;
 }
-
 
 @keyframes roll {
     from {
