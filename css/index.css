@@ -1,6 +1,7 @@
 body {
     background: var(--secondary-color);
     font-family: var(--default-font);
+    color: var(--primary-color);
 }
 
 .pop-up {
@@ -28,8 +29,7 @@ body {
     padding: 4px;
     border-radius: 10px;
     background: var(--gradient-green);
-    position: fixed;
-    top: 45px;
+    
 }
 .pop-up > p {
     margin-top: 15px;
@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 .player-container {
     display: flex;
@@ -81,8 +82,8 @@ body {
     background-size: cover;
 }
 #music-name {
-    height: 30px;
     text-align: center;
+    font-size: x-large;
 }
 
 audio {
@@ -106,6 +107,13 @@ button {
     background: transparent;
 }
 
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: var(--secondary-color);
+    background-image: var(--gradient-green);
+}
+
 main {
     width: fit-content;
     margin: 80px auto;
@@ -114,4 +122,32 @@ img {
     border-radius: 50%;
     width: 150px;
     height: auto;
+}
+select {
+    background: var(--gradient-green);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: larger;
+    width: 240px;
+    margin: auto;
+    text-align: center;
+}
+option {
+    background: var(--secondary-color);
+    color: var(--highlight-text);
+}
+
+img.play {
+    animation: roll 6s infinite;
+    transition: 2s ease;
+}
+
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
 }

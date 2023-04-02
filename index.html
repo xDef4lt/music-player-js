@@ -36,11 +36,15 @@
         <button class="btn" id="fechar-popup">Entendido!</button>
     </div>
 
+    <header>
+        <h1 class="gradient-text">Music-Player</h1>
+    </header>
+
     <main>
         <div class="player-container">
             <div class="info-music">
                 <img src="./imgs/musica1-capa.jpg" alt="Capa da música escolhida">
-                <div id="music-name"></div>
+                <div id="music-name">Dri - Fim do Mundo</div>
             </div>
             <div class="audio-container">
                 <audio src="./audios/Dri - FIM DO MUNDO .mp3" controls aria-disabled></audio>
@@ -49,6 +53,11 @@
                 <button id="play"></button>
                 <button id="pause"></button>
             </div>
+            <select name="select" id="selection">
+                <option value="./audios/Dri - FIM DO MUNDO .mp3" id="musica1">Dri - Fim do Mundo</option>
+                <option value="./audios/Billie Jean.mp3" id="musica2">Michael Jackson - Billie Jean</option>
+                <option value="./audios/Manoel Gomes - Caneta Azul.mp3" id="musica3">Manoel Gomes - Caneta Azul</option>
+            </select>
         </div>
     </main>
 </body>
