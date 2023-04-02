@@ -10,7 +10,7 @@
   Como é um treino simples, o código está bem amador, então... Relevem kkk 
 </p>
 <p>
-  Você pode acessar o site clicando neste link: https://quimicafacil.vercel.app
+  Você pode acessar o site clicando neste link: https://music-player-js-one.vercel.app/
 </p>
 
 <h3> ➢ Outras informações </h3>
