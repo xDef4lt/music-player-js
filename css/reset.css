@@ -2,23 +2,16 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    text-decoration: none;
-    color: inherit;
     border: none;
     box-sizing: border-box;
     font-family: var(--default-font);
-}
-input:focus, select:focus {
-    outline: 0;
 }
 
 /*Declarando as variáveis*/
 :root {
     --gradient-green: linear-gradient(to right, #228054, #0d476d);
-    --gradient-green-bottom: linear-gradient(to bottom, #228046, #0d476d);
     --primary-color: #fff;
     --secondary-color: #000;
-    --tertiary-color: #0f0f0f;
     --highlight-text: #48b189;
     --default-font: Typo Formal;
 }
