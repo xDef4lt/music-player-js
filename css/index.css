@@ -130,7 +130,7 @@ option {
 }
 
 img.play {
-    animation: roll 6s infinite;
+    animation: roll 6s linear infinite;
     transition: 2s ease;
 }
 
