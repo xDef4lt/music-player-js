@@ -18,9 +18,9 @@
   <li> <strong>Status:</strong> <em>Finalizado</em>
   <li> <strong>Linguagens utilizadas:</strong> <br>
     <div style="display: inline-block;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40"/>
+      <img align="center" alt="html" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />       
+      <img align="center" alt="css" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />  
+      <img align="center" alt="js" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
     </div>
   <li> <strong>Conhecimentos aplicados:</strong>
   <ul>
