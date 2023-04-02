@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: var(--default-font);
 }
+select:focus { outline: 0 }
 
 /*Declarando as variáveis*/
 :root {
